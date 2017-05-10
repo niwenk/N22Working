@@ -1,0 +1,17 @@
+//
+//  N22Working.pch
+//  N22Working
+//
+//  Created by nwk on 2017/3/28.
+//  Copyright © 2017年 com.sh.n22. All rights reserved.
+//
+
+#ifndef N22Working_pch
+#define N22Working_pch
+
+#define MAWindowView [UIApplication sharedApplication].keyWindow
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#import "UIView+MAExtension.h"
+
+#endif /* N22Working_pch */
